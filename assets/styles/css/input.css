@@ -64,6 +64,7 @@ form input {
   font-size: 14px;
 }
 form input:focus {
+  outline: none;
   box-shadow: rgba(51, 125, 174, 0.7137254902) 0px 3px 8px;
 }
 form button {

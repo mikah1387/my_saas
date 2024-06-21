@@ -4,11 +4,12 @@
 
 {% block body %}
 <section class="register">
-    <div>
-        <h1>S'inscrire</h1>
+    
     {{ form_errors(registrationForm) }}
 
     {{ form_start(registrationForm) }}
+     <h1>S'inscrire</h1>
+
         {{ form_row(registrationForm.lastname) }}
         {{ form_row(registrationForm.firstname) }}
         {{ form_row(registrationForm.adresse) }}
@@ -21,7 +22,7 @@
 
         <button type="submit" class="btn">S'inscrire</button>
     {{ form_end(registrationForm) }}
-     </div>
+     
 
 </section>
 {% endblock %}
